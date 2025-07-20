@@ -1,87 +1,51 @@
-# Welcome to React Router!
+# 🧠 AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+[Live Demo 🚀](https://ai-resume-analizer.vercel.app)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+Build an **AI-powered Resume Analyzer** with React, React Router, and Puter.js! Seamlessly authenticate users, upload and store resumes, and match candidates to job listings using AI. Get personalized feedback and ATS scores for each resume—all with a sleek, reusable UI.
 
 ---
 
-Built with ❤️ using React Router.
+## ✨ Features
+
+- 🔐 **Browser-Only Authentication**: Secure and seamless login via Puter.js with zero backend setup.
+- 📄 **Resume Upload & Storage**: Users can safely upload and manage all their resumes in one place.
+- 🤖 **AI-Powered Matching**: Input a job listing and receive an ATS score plus detailed resume feedback.
+- 🎨 **Modern Reusable UI**: Built with Tailwind CSS and ShadCN UI for a sleek, consistent interface.
+- 🧩 **Component Reusability**: Designed with modularity in mind for easy scaling and maintenance.
+- 📱 **Cross-Device Compatible**: Fully responsive design optimized for all screen sizes.
+- 🧠 **Smart Architecture**: Scalable code structure with Zustand state management and TypeScript support.
+
+---
+
+## ⚙️ Tech Stack
+
+| Technology     | Description |
+|----------------|-------------|
+| **React**      | Open-source JavaScript library for building user interfaces. |
+| **React Router v7** | Advanced routing for dynamic and nested routes with loaders and SSR support. |
+| **Puter.js**   | Lightweight SDK for serverless auth, file storage, and AI capabilities. |
+| **Tailwind CSS** | Utility-first CSS framework for fast and custom styling. |
+| **TypeScript** | Typed superset of JavaScript improving code quality and tooling. |
+| **Zustand**    | Minimal state management library for efficient global state handling. |
+| **Vite**       | Lightning-fast dev server and build tool powered by ES modules. |
+
+---
+
+## ⚡ Quick Start
+
+Follow these steps to run the project locally:
+
+### Prerequisites
+
+Ensure the following are installed:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/pallavi-2303/AIResumeAnalizer.git
+cd ai-resume-analyzer
