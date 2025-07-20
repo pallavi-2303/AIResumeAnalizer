@@ -49,12 +49,18 @@ const WipeApp = () => {
                     </div>
                 ))}
             </div>
-            <div>
+            <div className="flex flex-row gap-4">
                 <button
-                    className="bg-blue-500 text-white px-4 py-2 rounded-md cursor-pointer"
+                    className="bg-blue-500 text-white px-4 py-2 rounded-full cursor-pointer mt-5"
                     onClick={() => handleDelete()}
                 >
                     Wipe App Data
+                </button>
+                <button
+                    className="bg-pink-500 text-white px-4 py-2 rounded-full cursor-pointer mt-5"
+                    onClick={() => navigate('/')}
+                >
+                    Return to Home Page
                 </button>
             </div>
         </div>

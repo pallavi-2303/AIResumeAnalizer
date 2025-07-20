@@ -67,6 +67,14 @@ export default function Home() {
             </Link>
           </div>
         )}
+        {resumes?.length>0 && (
+           <button
+                    className="bg-pink-500 text-white px-4 py-2 rounded-full cursor-pointer mt-5 "
+                    onClick={() => navigate('/wipe')}
+                >
+                    Wipe All Data
+                </button>
+        )}
       </section>
     </main>
   );
